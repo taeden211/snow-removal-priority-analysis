@@ -107,5 +107,5 @@ ax.margins(y=0.18)
 add_line_labels(ax, ground_temp_values)
 
 fig.tight_layout()
-fig.savefig("winter_averages_snow_only.png", dpi=200, bbox_inches="tight")
+fig.savefig("기상 데이터 시각화.png", dpi=200, bbox_inches="tight")
 print("Saved")
