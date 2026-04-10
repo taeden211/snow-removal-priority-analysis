@@ -1,3 +1,17 @@
+# 의왕시 제설 우선지역 분석  
+다양한 공공/공간 데이터를 융합하여 의왕시 내 제설 작업이 우선적으로 필요한 지역을 분석하고 시각화한 프로젝트
+
+## 분석 결과
+![분석결과 지도](result/priority_area_for_additional_snow_boxes.png)
+![분석결과 지도](result/large_scale_snow_removal_priority_area.png) 
+
+## 디렉토리 구조 (Structure)
+├── data/                # 원본 및 전처리된 데이터
+├── result/              # 시각화 결과
+├── visualization.py     # 파이썬 데이터 가공 코드
+└── README.md
+
+
 **주요 툴**  
 QGIS 3.4.0, Python
 

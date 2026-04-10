@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 
@@ -55,7 +57,7 @@ def add_line_labels(ax, values):
         )
 
 
-df = pd.read_csv("데이터/기상 데이터/OBS_ASOS_DD_20260331104754.csv", encoding="cp949")
+df = pd.read_csv("data/weather_data/OBS_ASOS_DD_20260331104754.csv", encoding="cp949")
 df["일시"] = pd.to_datetime(df["일시"])
 df["Month"] = df["일시"].dt.month
 
